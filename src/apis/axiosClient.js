@@ -2,7 +2,7 @@ import axios from 'axios';
 import { API_ROOT } from '~/utils/constants';
 
 const axiosClient = axios.create({
-  baseURL: API_ROOT,
+  baseURL: `${API_ROOT}/v1/`,
   headers: {
     'Content-Type': 'application/json'
   }
