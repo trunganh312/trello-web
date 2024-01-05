@@ -24,7 +24,7 @@ export default function Started() {
         aria-haspopup='true'
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
-        endIcon={<KeyboardArrowDownIcon />}
+        endicon={<KeyboardArrowDownIcon />}
         size='small'
       >
         Started

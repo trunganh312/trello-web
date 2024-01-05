@@ -65,19 +65,19 @@ const BoardBar = ({ board }) => {
           }}
         >
           <Tooltip title='Remy Sharp'>
-            <Avatar alt='Remy Sharp' src='/static/images/avatar/1.jpg' />
+            <Avatar alt='Remy Sharp' src='' />
           </Tooltip>
           <Tooltip title='Remy Sharp'>
-            <Avatar alt='Remy Sharp' src='/static/images/avatar/1.jpg' />
+            <Avatar alt='Remy Sharp' src='' />
           </Tooltip>
           <Tooltip title='Remy Sharp'>
-            <Avatar alt='Remy Sharp' src='/static/images/avatar/1.jpg' />
+            <Avatar alt='Remy Sharp' src='' />
           </Tooltip>
           <Tooltip title='Remy Sharp'>
-            <Avatar alt='Remy Sharp' src='/static/images/avatar/1.jpg' />
+            <Avatar alt='Remy Sharp' src='' />
           </Tooltip>
           <Tooltip title='Remy Sharp'>
-            <Avatar alt='Remy Sharp' src='/static/images/avatar/1.jpg' />
+            <Avatar alt='Remy Sharp' src='' />
           </Tooltip>
         </AvatarGroup>
       </Box>

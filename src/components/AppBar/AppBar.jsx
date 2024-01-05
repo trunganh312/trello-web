@@ -68,7 +68,7 @@ const AppBar = () => {
           <Button
             sx={{ color: 'white', border: 'none', '&:hover': { border: 'none' } }}
             variant='outlined'
-            endIcon={<AddToPhotosIcon />}
+            endicon={<AddToPhotosIcon />}
           >
             Create
           </Button>

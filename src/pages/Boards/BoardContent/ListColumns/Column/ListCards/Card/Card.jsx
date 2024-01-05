@@ -31,7 +31,10 @@ const Card = ({ card }) => {
           cursor: 'pointer',
           overflow: 'unset',
           boxShadow: '0 1px 1px rgba(0 0 0 0.2)',
-          display: card?.FE_PlaceholderCard ? 'none' : 'block'
+          display: card?.FE_PlaceholderCard ? 'none' : 'block',
+          '&:hover': {
+            border: `1px solid ${(theme) => theme.palette.primary.main}`
+          }
         }}
       >
         <CardContent sx={{ p: 1.5, '&:last-child': { pb: 1.5 } }}>
@@ -52,7 +55,10 @@ const Card = ({ card }) => {
         display: card?.FE_PlaceholderCard ? 'none' : 'block',
         cursor: 'pointer',
         overflow: 'unset',
-        boxShadow: '0 1px 1px rgba(0 0 0 0.2)'
+        boxShadow: '0 1px 1px rgba(0 0 0 0.2)',
+        '&:hover': {
+          border: `1px solid ${(theme) => theme.palette.primary.main}`
+        }
       }}
     >
       <CardMedia sx={{ height: 140, borderTopLeftRadiusRadius: 'inherit' }} image={card?.cover} title='green iguana' />

@@ -4,11 +4,14 @@ import { Experimental_CssVarsProvider as CssVarsProvider } from '@mui/material/s
 import ReactDOM from 'react-dom/client';
 import App from './App.jsx';
 import theme from './theme.js';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
   // <React.StrictMode>
   <CssVarsProvider theme={theme}>
     <CssBaseline></CssBaseline>
     <App />
+    <ToastContainer />
   </CssVarsProvider>
   // </React.StrictMode>
 );
